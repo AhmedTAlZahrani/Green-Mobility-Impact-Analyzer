@@ -1,0 +1,8 @@
+mode,co2_grams_per_km,passengers_avg
+ICE Car,192,1.5
+EV Car,50,1.5
+Bus,89,30
+Metro,41,150
+Bike,0,1
+Walking,0,1
+Motorcycle,103,1
