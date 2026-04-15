@@ -21,6 +21,17 @@ Charts are saved to the `plots/` folder.
 - Estimates yearly savings vs driving a gasoline car
 - Generates bar charts and a pie chart comparing modes
 
+Per-person numbers for shared modes (bus, metro) assume an average
+occupancy — 30 passengers for a bus and 150 for metro. Real numbers
+will shift if occupancy is much lower or higher.
+
+## Running Tests
+
+```bash
+pip install pytest
+pytest tests/
+```
+
 ## Project Structure
 
 ```
