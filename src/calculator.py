@@ -16,14 +16,6 @@ def calc_emissions_per_person_km(df):
     return df
 
 
-def calc_trip_emissions(df, distance_km):
-    # calculate total grams of CO2 for a trip of given distance
-    df = df.copy()
-    df["trip_co2_grams"] = df["co2_per_person_km"] * distance_km
-    df["trip_co2_kg"] = df["trip_co2_grams"] / 1000
-    return df
-
-
 def calc_yearly_savings(df, daily_km=20, work_days=250):
     # compare each mode against ICE car for a year of commuting
     df = calc_emissions_per_person_km(df)
