@@ -12,7 +12,7 @@ cd src
 python main.py
 ```
 
-Charts are saved to the `plots/` folder.
+Charts are saved to the `plots/` folder. The computed results (per-mode CO2 and yearly savings) are saved to `results/summary.csv` and `results/summary.md`.
 
 ## What It Does
 
